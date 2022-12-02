@@ -9,7 +9,7 @@ function Item({ itemData, alternateInCart, isInCart }) {
 
   return (
     <div className="item-container">
-      <img className="item-image" src={`/images/${name.toLowerCase().replace(" ", "_")}.png`} />
+      <img className="item-image" src={require(`../images/${name.toLowerCase().replace(" ", "_")}.png`)} />
       
       <div className= "item-header">
         <div className = "item-title">{name}</div>
