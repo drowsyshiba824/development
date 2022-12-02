@@ -23,7 +23,7 @@ I also made sure my colors passed the color contrast test, with the black on bei
 
 
 ### Organization of Components
-Within the App component, we import Filters, Cart, and Items which are all components. 
+Within the App, we import Filters, Cart, and Items which are all components. 
 
 Filters represents the section containing our sort, and two filters. 
 
@@ -33,7 +33,7 @@ Items is a component representing all our items. Within Items, is another compon
 
 ### How Data is Passed Down Through Components
 App
-This component is where we actually made our itemsData array, most of our states and functions setting those states, and global structure of the page. Because of this, much of this data needs to be sent to other components, including Filters, Cart, and Items. To do so, we use props. When we call these function components, we simply pass in any functions, states, and date needed as props to make sure everything is linked.
+This is where we actually made our itemsData array, most of our states and functions setting those states, and global structure of the page. Because of this, much of this data needs to be sent to other components, including Filters, Cart, and Items. To do so, we use props. When we call these function components, we simply pass in any functions, states, and date needed as props to make sure everything is linked.
 
 Filters
 For filters, we pass in our SelectFilterType function and type state, since clicking the input within the Filters component is what should trigger these functions and setting of the state. We also pass in SelectFilterMenu function and menu state for the Menu filtering, and the selectSort function which the dropdown in Filters selects what sorting option we are sorting by.
