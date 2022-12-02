@@ -15,8 +15,6 @@ function Item({ itemData, alternateInCart, isInCart }) {
         <div className = "item-title">{name}</div>
         <p className = "item-price">${price}</p>
       </div>
-      
-      
       <div className = "item-description">
       <p>Type: {type}, Calories: {calories}, Rated {popularity}/5</p>
       <p>*{menu} Item*</p>
