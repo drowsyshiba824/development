@@ -1,15 +1,27 @@
 {
   "files": {
     "main.css": "/development/static/css/main.ed450b02.css",
-    "main.js": "/development/static/js/main.c58f8f79.js",
+    "main.js": "/development/static/js/main.1dc54d7f.js",
+    "static/media/hot_chocolate.png": "/development/static/media/hot_chocolate.304d891b1a119dff53ba.png",
+    "static/media/grilled_cheese.png": "/development/static/media/grilled_cheese.dc0efae515eabbb84c01.png",
+    "static/media/apple_cider.png": "/development/static/media/apple_cider.637b8eb64443c79b1370.png",
+    "static/media/green_bagel.png": "/development/static/media/green_bagel.3e595008d1a77cf2ba31.png",
+    "static/media/almond_cookie.png": "/development/static/media/almond_cookie.c6641d0a5e68486e1956.png",
+    "static/media/matcha_latte.png": "/development/static/media/matcha_latte.34de0f81e964bf52a615.png",
+    "static/media/avocado_toast.png": "/development/static/media/avocado_toast.50f9a6c507142c91597d.png",
+    "static/media/lemonade.png": "/development/static/media/lemonade.a29177e778a72e2de813.png",
+    "static/media/carrot_cake.png": "/development/static/media/carrot_cake.7b7063862902b7d50fe7.png",
+    "static/media/cinnamon_roll.png": "/development/static/media/cinnamon_roll.6a5b8818fb422ea67e56.png",
+    "static/media/maple_fudge.png": "/development/static/media/maple_fudge.515d4972d2c38991d09a.png",
+    "static/media/chicken_pesto.png": "/development/static/media/chicken_pesto.40b893492a67a708af07.png",
     "static/media/shiba-inu.png": "/development/static/media/shiba-inu.8251eb529d7ddc41e7b0.png",
     "static/media/shopping-cart.png": "/development/static/media/shopping-cart.e489cab934c98b8ede8b.png",
     "index.html": "/development/index.html",
     "main.ed450b02.css.map": "/development/static/css/main.ed450b02.css.map",
-    "main.c58f8f79.js.map": "/development/static/js/main.c58f8f79.js.map"
+    "main.1dc54d7f.js.map": "/development/static/js/main.1dc54d7f.js.map"
   },
   "entrypoints": [
     "static/css/main.ed450b02.css",
-    "static/js/main.c58f8f79.js"
+    "static/js/main.1dc54d7f.js"
   ]
 }
