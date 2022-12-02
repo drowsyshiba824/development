@@ -31,11 +31,7 @@
 }
 
 .add-button{
-    /* #4CAF50 
-    #53af4c
-    #db5932
-    */
-    background-color: #53af4c; 
+    background-color: #4BA749; 
     border: none;
     color: white;
     padding: 10px 80px;
