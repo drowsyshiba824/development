@@ -23,6 +23,15 @@
   max-width: 1000px;
 }
 
+.content-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
 .logo {
   width: 40px;
   height: 40px;
@@ -34,28 +43,7 @@
   margin: 0;
 }
 
-.cart-container {
-  position: relative;
-  width: 40px;
-  height: 40px;
-  margin-left: auto;
-}
-
-.cart {
-  margin: 5px;
-  width: 30px;
-  height: 30px;
-}
-
-.cart-count {
-  position: absolute;
-  right: 38px;
-  top: -10px;
-  color: black;
-  background-color: tomato;
-  font-size: 12px;
-  border-radius: 9999px;
-  padding: 1px 5px 1px 5px;
-  font-weight: bold;
-  border: 1.5px solid black;
+.sidebar-container {
+  flex-shrink: 0;
+  width: 200px;
 }

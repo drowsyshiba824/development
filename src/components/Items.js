@@ -1,10 +1,10 @@
 import Item from './Item';
 import './Items.css';
 
-function Items({ itemsData }) {
+function Items({ itemsData, alternateInCart, isInCart }) {
   return (
     <div className="items-container">
-      {itemsData.map((itemData, index) => <Item key={index} itemData={itemData}/>)}
+      {itemsData.map(itemData => <Item key={itemData.id} itemData={itemData} alternateInCart={alternateInCart} isInCart={isInCart} />)}
     </div>
   );
 }
